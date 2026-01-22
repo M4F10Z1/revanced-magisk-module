@@ -7,3 +7,12 @@ arch = "arm64-v8a"
 build-mode = "module"
 excluded-patches = "'Custom branding' 'Change header' 'Theme' 'GmsCore support'"
 included-patches = "'MaterialYou'"
+
+[YouTube-Morphe]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube"
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+app-name = "YouTube"
+rv-brand = "Morphe"
+arch = "arm64-v8a"
+build-mode = "module"
